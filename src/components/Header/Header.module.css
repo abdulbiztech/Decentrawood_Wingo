@@ -1,0 +1,64 @@
+
+.cus_navbar {
+    background-color: #d84297;
+    color: #fff;
+  }
+
+  .navbar-brand img {
+    width: 75px;
+  }
+
+  .GameLogo {
+    width: 70px;
+    height: auto;
+  }
+
+  .cus_navlink {
+    color: #fff;
+    font-family: "Russo One", sans-serif;
+    font-weight: 100;
+  }
+
+  .cus_navitem {
+    margin-right: 10px;
+  }
+
+  .cus_navitem a{
+    color:#fff !important;
+  }
+  .connect_form {
+    margin-left: auto;
+  }
+
+  .connect_btn {
+    background-color: #fff !important;
+    color: black !important;
+    padding: 5px 20px;
+    font-family: "Russo One", sans-serif;
+    font-weight: 600 !important;
+  }
+  .user_box{
+    display: flex;
+    margin-left: auto;
+  }
+  .user_box p{
+    margin: 10px 16px;
+  }
+
+  @media (max-width: 992px) {
+    .navbar-brand img {
+      width: 50px;
+    }
+
+    .GameLogo {
+      width: 40px;
+    }
+
+    .cus_navlink {
+      font-size: 14px;
+    }
+
+    .connect_btn {
+      padding: 3px 15px;
+    }
+  }
